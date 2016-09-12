@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         intent.setAction(Intent.ACTION_SENDTO);
 
         intent.setType("text/plain");
-        intent.setData(Uri.parse("mailto:ronethousand@gmail.com"));
+        intent.setData(Uri.parse("mailto:xxx@xxx));
         intent.putExtra(Intent.EXTRA_SUBJECT, "【備忘録】");
 
 
